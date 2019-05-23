@@ -9,14 +9,10 @@ Welcome to highres's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :numbered:
    
-   introduction
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   objective-and-scope
+   highres-model-overview
+   data-description
+   uktm-model-description
+   model-soft-linkage

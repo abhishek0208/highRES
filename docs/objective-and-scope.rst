@@ -1,0 +1,10 @@
+###################
+Objective and scope
+###################
+
+Modelling the conventional fossil fuel-based energy system is different from low carbon energy systems with high shares of VREs in terms of the necessary spatial and temporal resolution required. Thermal electricity systems are usually organized in centralized largescale generation units whose location is flexible due to the relatively low transportation1 and storage costs of fossil fuels1,2. In conventional systems, generators are either baseload plants running constantly or dispatchable plants, ramping up and down to match demand as needed3. Renewable energy systems are characterised by the spatial and temporal variability of supply. Important methods to manage renewable intermittency are to integrate different renewable technologies into the system (technological diversity) and to take advantage of the fact that contemporaneous weather conditions can differ from one location to the next by spreading VRE deployment over a large geographical area (spatial diversity). By combining VRE production from different sources at different locations the variance in their output can be significantly reduced4,5. To facilitate such a system, the existing high voltage transmission network has to be reinforced or expanded and in order to maximise transmission utilisation co-locating VRE deployment with storage6 may be important. Indeed, electricity storage, either centralised or distributed, may be a key tool to smooth the variability of VRE supply in future2,7. Another option to manage intermittency is to deploy flexible generation which can be used to ramp up quickly when renewable production is low and/or demand is high2. Finally, there is also a basket of demand side options8 which may have significant potential to aid VRE integration but whose large-scale implementation is currently uncertain8 due to the inherent challenges around behaviour change and as a result studies are limited9.
+•	Electricity sector
+•	Focus on storage
+•	Temporal resolution: hourly
+•	Spatial resolution: zones, nodes
+•	Weather years
