@@ -1,5 +1,12 @@
-##################
+==================
 Model soft-linkage
-##################
+==================
 
-This is a test introduction
+Figure 10 shows how we soft-link the models. Comparable studies79–82 use a soft-linking approach with the exception of ref83 which hard-links a long-term model with a dispatch model (for a number of representative days per year). 
+For this study we run UKTM with an 80% GHG emission reduction target relative to 1990 levels by 2050 and assume that CCS is not available. We make this assumption for two reasons: Firstly, to ensure UKTM designs a power system, and therefore energy system, with high shares of VRE. Secondly, because of the sizable uncertainty around whether CCS will ever feature at scale, particularly in light of the UK government recently cancelling its £1bn CCS competition. We use this as first scenario for an internally consistent exemplar of a power system with high shares of VREs for our analysis. As it produces 50% generation from VREs we call it 50VRE. We then run a second scenario with the same characteristics as the first but also put a constraint into UKTM to generate a minimum of 80% from VREs and name it 80VRE. We use total electricity demand, fuel prices, generation capacities and the CO2 grid intensity from UKTM for 2050 as input into highRES. As UKTM is a whole energy system model it sets the boundaries on the electricity system (i.e. determines which sectors get electrified). We combine total annual electricity demand for 2050 from UKTM with historical from National Grid hourly load profiles. We use marginal commodity prices for 2050 from UKTM (i.e. the shadow price) as fuel costs in highRES. We take power generation capacities from UKTM as input into highRES. UKTM decides on the grid CO2 intensity for the power sector in order to reach an overall 80% GHG emission reduction. We perform a detailed GIS assessment to exclude areas from VRE development for technical, environmental and social reasons (see above). We use hourly gridded capacity factors for wind and solar energy with a spatial resolution of 35km x 50km (0.5° x 0.5°) from 2001-2010 (see above). In this study we run the model for 10 weather years both individually and simultaneously (see Figure 11). This gives us amongst other results the location of generation capacities, the location and capacities of integration options, total system costs and CO2 emissions for 404 different runs in total. We also perform further runs with the system design (capacities and spatial deployment patterns) fixed to a specific year and VRE generation based on all of the remaining nine years, one at a time. We do this for the allflex case of both scenarios leading to a further 180 runs.
+ 
+ 
+Figure 10 - Flowchart of soft-linking UKTM to highRES
+ 
+Figure 11 - Scenarios, cases, running modes, temporal coverage and number of model runs
+
